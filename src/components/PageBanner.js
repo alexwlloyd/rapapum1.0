@@ -7,7 +7,7 @@ const PageBanner = ({ pageName, pageTitle }) => {
       style={{ backgroundImage: "url(assets/images/bg/page-bg-1.jpg)" }}
     >
       <div className="brand-card text-center">
-        <img src="assets/images/icon/wheat.png" alt="icon" />
+        <img src="assets/images/icon/drawingnoback.png" alt="icon" />
         <h3>Orgarium</h3>
       </div>
       <div className="container">

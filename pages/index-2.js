@@ -31,22 +31,22 @@ const Index2 = () => {
                         data-animation="fadeInDown"
                         data-delay=".4s"
                       >
-                        Organic Farms
+                        Fattoria Il TASSO
                       </span>
                       <h1 data-animation="fadeInUp" data-delay=".5s">
-                        Organic &amp; Fresh Testy Foods
+                        Verdura Biologico
                       </h1>
                       <div
                         className="hero-button"
                         data-animation="fadeInDown"
                         data-delay=".6s"
                       >
-                        <Link href="/about">
-                          <a className="main-btn btn-yellow">Learn About Us</a>
+                        <Link href="/contact">
+                          <a className="main-btn btn-yellow">Contattaci</a>
                         </Link>
-                        <Link href="/portfolio-grid">
+                        <Link href="/faqs">
                           <a className="main-btn bordered-btn">
-                            Latest Project
+                            Scopri di più
                           </a>
                         </Link>
                       </div>
@@ -74,22 +74,22 @@ const Index2 = () => {
                         data-animation="fadeInDown"
                         data-delay=".4s"
                       >
-                        Organic Farms
+                        Microfattoria
                       </span>
                       <h1 data-animation="fadeInUp" data-delay=".5s">
-                        Agriculture &amp; Organic Farms
+                        Cassette Stagionale
                       </h1>
                       <div
                         className="hero-button"
                         data-animation="fadeInDown"
                         data-delay=".6s"
                       >
-                        <Link href="/about">
-                          <a className="main-btn btn-yellow">Learn About Us</a>
+                        <Link href="/contact">
+                          <a className="main-btn btn-yellow">Contattaci</a>
                         </Link>
-                        <Link href="/portfolio-grid">
+                        <Link href="/faqs">
                           <a className="main-btn bordered-btn">
-                            Latest Project
+                          Scopri di più
                           </a>
                         </Link>
                       </div>
@@ -109,41 +109,55 @@ const Index2 = () => {
             <div className="col-lg-6">
               <div className="about-content-box content-box-gap pr-lg-70 mb-50">
                 <div className="section-title section-title-left mb-30 wow fadeInUp">
-                  <span className="sub-title">About Us</span>
-                  <h2>We’re Best Agriculture &amp; Organic Firms</h2>
+                  <span className="sub-title">Chi Siamo</span>
+                  <h2>no-till regenerative market garden &amp; beyond organic microfarm</h2>
                 </div>
                 <p>
-                  Natus error sit voluptatem accusantium doloremque laudatium,
-                  totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
-                  et quasi architecto beatae vitae dicta sunt
+                  Run out of our humble home, we grow over 40 varieties of vegetables, with boxes ready-to-order weekly.
+                  Through direct sales, we hope to bring the freshest healthiest and tastiest vegetables to our local community. 
+                  We are located in the wild Ventena Valley between Mondaino & Montefiore Conca, RN where we focus on ecological 
+                  and regenerative practices to provide for ourselves and local community.
+                  Using no-till methods, we want to emphasize that small human-scale farm businesses can be sustainable and that
+                  a new way of farming is here.
+
+
                 </p>
                 <div className="skill-bar wow fadeInDown">
+                <div >
+                    <h6>
+                      Compared to conventional Agriculture we use:
+                    </h6>
+                    <div>
+                      <br>
+                      </br>
+                    </div>
+                  </div>
                   <div className="skill-title">
                     <h5>
-                      Organic Products<span>75%</span>
+                      Less Space<span>75%</span>
                     </h5>
                   </div>
                   <div
                     className="progress-bar wow slideInLeft"
-                    style={{ width: "75%" }}
+                    style={{ width: "100%" }}
                   />
                   <div className="progress" />
                 </div>
                 <div className="skill-bar wow fadeInUp">
                   <div className="skill-title">
                     <h5>
-                      Healthy Foods<span>89%</span>
+                      Less Energy<span>90%</span>
                     </h5>
                   </div>
                   <div
                     className="progress-bar wow slideInLeft"
-                    style={{ width: "89%" }}
+                    style={{ width: "90%" }}
                   />
                   <div className="progress" />
                 </div>
                 <div className="about-button mt-60 wow fadeInDown">
                   <Link href="/about">
-                    <a className="main-btn bordered-btn">Learn More Us</a>
+                    <a className="main-btn bordered-btn">Scopri di più</a>
                   </Link>
                 </div>
               </div>
@@ -151,11 +165,6 @@ const Index2 = () => {
             <div className="col-lg-6">
               <div className="about-two_image-box p-r z-1 mb-50 wow fadeInRight">
                 <img src="assets/images/about/about-2.png" alt="" />
-                <div className="theme-user-card bg-white">
-                  <h3>Agriculture &amp; Organic Farms</h3>
-                  <img src="assets/images/user-1.jpg" alt="" />
-                  <img src="assets/images/sign-1.png" alt="" />
-                </div>
               </div>
             </div>
           </div>
@@ -540,7 +549,7 @@ const Index2 = () => {
             <div className="row justify-content-center">
               <div className="col-lg-5">
                 <div className="section-title text-center mb-50 wow fadeInUp">
-                  <span className="sub-title">What We Offers</span>
+                  <span className="sub-title">2024 Production Menu</span>
                   <h2>People Choose Us For Our Great Offers</h2>
                 </div>
               </div>
@@ -635,21 +644,10 @@ const Index2 = () => {
         </div>
         <div className="container">
           <div className="col-lg-12">
-            <div className="play-content-box text-center wow fadeInDown">
-              <a
-                href="https://www.youtube.com/watch?v=gOZ26jO6iXE"
-                className="video-popup"
-              >
-                <i className="fas fa-play" />
-              </a>
-            </div>
+
           </div>
         </div>
-        <div className="counter-wrap-two text-white pt-35 wow fadeInUp">
-          <div className="container">
-            <OrgariumCounter2 />
-          </div>
-        </div>
+
       </section>
       {/*====== End Offer section ======*/}
       {/*====== Start Testimonial Section ======*/}

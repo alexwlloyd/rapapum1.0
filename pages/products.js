@@ -4,7 +4,7 @@ import Layout from "../src/layouts/Layout";
 const Shop = () => {
   return (
     <Layout>
-      <PageBanner pageTitle={"Shop"} pageName="Shop" />
+      <PageBanner pageTitle={"Prodotti"} pageName="Prodotti" />
       <section className="shaop-page pt-170 pb-70">
         <div className="container">
           <div className="product-search-filter wow fadeInUp">
@@ -74,10 +74,10 @@ const Shop = () => {
                     <div className="single-product-item mb-60 wow fadeInUp">
                       <div className="product-img">
                         <img src="assets/images/products/img-1.png" alt="" />
-                        <div className="pc-btn">Food</div>
+                        <div className="pc-btn">Sconto!</div>
                         <div className="cart-button">
-                          <Link href="/products">
-                            <a className="main-btn btn-yellow">Add to cart</a>
+                          <Link href="https://wa.me/p/7308489035837120/393489986824">
+                            <a className="main-btn btn-yellow">Prenota</a>
                           </Link>
                         </div>
                       </div>
@@ -100,12 +100,12 @@ const Shop = () => {
                           </li>
                         </ul>
                         <h3 className="title">
-                          <Link href="/product-details">
-                            <a>Organice Delicious Pomegranate</a>
+                          <Link href="https://wa.me/p/7308489035837120/393489986824">
+                            <a>Cassette Misto di Stagione</a>
                           </Link>
                         </h3>
                         <span className="price">
-                          <span className="curreny">$</span>53.56
+                          <span className="curreny">€</span>15.00
                         </span>
                       </div>
                     </div>

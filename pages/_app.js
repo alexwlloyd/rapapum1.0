@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <Fragment>
       <Head>
-        <title>Orgarium - Agriculture Farming React Template</title>
+        <title>Il Tasso - Fattoria Ortocoltura Bio</title>
         {/*====== Favicon Icon ======*/}
         <link
           rel="shortcut icon"
