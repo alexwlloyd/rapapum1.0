@@ -9,6 +9,7 @@
   "/contact": "pages/contact.html",
   "/faqs": "pages/faqs.html",
   "/index-2": "pages/index-2.html",
+  "/": "pages/index.html",
   "/products": "pages/products.html",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"
