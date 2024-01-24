@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST={"..\\src\\components\\OrgariumCounter.js -> ./Counter":{"id":"..\\src\\components\\OrgariumCounter.js -> ./Counter","files":["static/chunks/src_components_Counter_js.js"]}}
+self.__REACT_LOADABLE_MANIFEST={"..\\src\\components\\OrgariumCounter.js -> ./Counter":{id:6774,files:["static/chunks/54.d8e81f538aaecacd.js"]}};

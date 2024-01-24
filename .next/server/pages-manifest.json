@@ -1,6 +1,15 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/about": "pages/about.html",
+  "/api/hello": "pages/api/hello.js",
+  "/blog-standard": "pages/blog-standard.html",
+  "/cart": "pages/cart.html",
+  "/checkout": "pages/checkout.html",
+  "/contact": "pages/contact.html",
+  "/faqs": "pages/faqs.html",
+  "/index-2": "pages/index-2.html",
+  "/products": "pages/products.html",
   "/_document": "pages/_document.js",
-  "/index-2": "pages/index-2.js"
+  "/404": "pages/404.html"
 }
